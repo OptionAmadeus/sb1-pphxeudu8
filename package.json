@@ -14,7 +14,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@netlify/functions": "^2.6.0",
+    "@netlify/functions": "^3.0.0",
     "@supabase/supabase-js": "^2.39.1",
     "dotenv": "^16.3.1",
     "lucide-react": "^0.344.0",
