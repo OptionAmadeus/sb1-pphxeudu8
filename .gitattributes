@@ -1,0 +1,27 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# JS/TS files
+*.js text
+*.ts text
+*.jsx text
+*.tsx text
+
+# Config files
+*.json text
+*.yml text
+*.yaml text
+*.toml text
+
+# Documentation
+*.md text
+LICENSE text
+
+# Docker
+*.dockerfile text
+Dockerfile text
+
+# Lock files
+package-lock.json binary
+yarn.lock binary
+pnpm-lock.yaml binary

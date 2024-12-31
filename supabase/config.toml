@@ -1,0 +1,39 @@
+[auth]
+enabled = true
+
+[auth.email]
+enable_confirmations = false
+double_confirm_changes = false
+enable_signup = true
+
+[auth.external.coinbase]
+enabled = true
+client_id = "f9ea95af-876c-4a33-9230-bed617584e83"
+secret = "jzp53bfr7CPERb.SZw_TGfW1Qz"
+redirect_uri = "https://tryself.ai/auth/callback"
+
+[db]
+shadow_database_url = ""
+
+[api]
+port = 54321
+schemas = ["public", "auth"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[studio]
+port = 54323
+
+[inbucket]
+port = 54324
+smtp_port = 54325
+pop3_port = 54326
+
+[storage]
+enabled = false
+
+[analytics]
+enabled = false
+
+[realtime]
+enabled = true
